@@ -5,6 +5,8 @@ body {
     z-index: -1;
     background: #f2f5f7;
     opacity: 1;
+    margin: 0;
+    padding:0;
 }
 
 header {
@@ -89,7 +91,6 @@ section p {
 max-width: 500px; /* Set max width of the form */
 margin: 20px auto;   /* Center the form horizontally */
 padding: 18px;
-border-bottom: 2px solid #058743;
 }
 
 .form label {
@@ -107,14 +108,15 @@ width: 100%;
 padding: 10px;
 margin-bottom: 12px;
 color: white;
-border-bottom: 2px solid #ffffff;
-background-color: #f9f9f9;
+border-bottom: 2px solid #;
+background-color: #5cd85a;
 box-sizing: border-box; /* Includes padding in width calculation */
 }
 
 
 .form textarea {
 min-height: 100px; /* Set a minimum height for the textarea */
+background-color: #5cd85a;
 }
 
 .form input:invalid,
