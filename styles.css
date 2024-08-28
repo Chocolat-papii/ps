@@ -10,14 +10,14 @@ body {
 header {
     background-color: #1a5653;
     color: #dbbd1b;
-    width: 100%;
+    width: auto;
 }
 footer {
     background-color: #1a5653;
     text-align: center;
     color: #dbbd1b;
     padding: 20px;
-    width: 100%;
+    width: auto;
 }
  section {
     margin: 0;
@@ -41,17 +41,19 @@ div {
 }
 .note {
     background-color: #1a5653;
+    padding:4px;
 }
 
 h1 {
-    color: #5cd85a;
+    color: #dbbd1b;
     text-align: center;
     font-size: 40px;
+    padding:4px;
 }
 
 h2 {
     padding: 10px 0;
-    color: #107869;
+    color: #5cd85a;
     font-size: 32px;
 }
 
