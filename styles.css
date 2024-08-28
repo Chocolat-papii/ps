@@ -56,9 +56,7 @@ section p {
     font-size: 22px;
   
 }
-.mail {
-    font-size: small;
-}
+
 
 /*  ------ Contct ------ */
 
@@ -76,6 +74,9 @@ section p {
     .form .button {
       font-size: 14px;
     }
+    .mail {
+    font-size: 14px;
+}
   }
   
 .form {
