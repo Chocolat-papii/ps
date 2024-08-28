@@ -3,7 +3,7 @@ body {
     position: absolute;
     inset: 0;
     z-index: -1;
-    background: #058743;
+    background: #f9f9f9;
     opacity: 1;
   
 }
@@ -39,7 +39,7 @@ div {
 }
 
 h1 {
-  
+  color: #058743;
     text-align: center;
     color: white;
     font-size: 40px;
@@ -52,7 +52,7 @@ h2 {
 }
 
 section p {
-    color: white;
+    color: #058743;
     font-size: 22px;
   
 }
