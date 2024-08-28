@@ -10,6 +10,8 @@ body {
 }
 
 header {
+    position: relative;
+    top: 0;
     background-color: #1a5653;
     color: #dbbd1b;
     width: auto;
@@ -121,7 +123,7 @@ background-color: #5cd85a;
 
 .form input:invalid,
 .form textarea:invalid {
-border-color: #333333;
+border-color: red;
 }
 
 .form input:valid,
@@ -137,8 +139,8 @@ margin-bottom: 10px;
 .button {
 border: none;
 padding: 8px 12px;
-background-color: white;
-color: #058743;
+background-color: #107869;
+color: #5cd85a;
 border: 2px solid white;
 }
 
