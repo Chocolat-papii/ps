@@ -56,7 +56,9 @@ section p {
     font-size: 22px;
   
 }
-
+.mail {
+    font-size: small;
+}
 
 /*  ------ Contct ------ */
 
@@ -77,7 +79,7 @@ section p {
   }
   
 .form {
-max-width: 600px; /* Set max width of the form */
+max-width: 500px; /* Set max width of the form */
 margin: 20px auto;   /* Center the form horizontally */
 padding: 18px;
 border-bottom: 2px solid #058743;
