@@ -5,14 +5,19 @@ body {
     z-index: -1;
     background: #f2f5f7;
     opacity: 1;
-  
 }
 
+header {
+    background-color: #1a5653;
+    color: #dbbd1b;
+    width: 100%;
+}
 footer {
     background-color: #1a5653;
     text-align: center;
     color: #dbbd1b;
     padding: 20px;
+    width: 100%;
 }
  section {
     margin: 0;
@@ -33,11 +38,13 @@ div {
     max-width: 500px;
     display: block;
     margin: 0 auto;
-
+}
+.note {
+    background-color: #1a5653;
 }
 
 h1 {
-    color: #1a5653;
+    color: #5cd85a;
     text-align: center;
     font-size: 40px;
 }
@@ -49,7 +56,7 @@ h2 {
 }
 
 section p {
-    color: #058743;
+    color: #dbbd1b;
     font-size: 22px;
   
 }
