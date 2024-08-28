@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    position: absolute;
+    position: relative;
     top: -10px;
     background-color: #1a5653;
     color: #dbbd1b;
