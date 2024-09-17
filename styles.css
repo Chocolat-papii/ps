@@ -1,32 +1,44 @@
 body {
-    /*content: '';
-    position: absolute;
-    inset: 0;
-    z-index: -1;*/
-    background: #f2f5f7;
-    opacity: 1;
-    margin: 0;
-    padding:0;
+    background: #ffffff;
+  
 }
 
-header {
-    position: relative;
-    top: -10px;
-    background-color: #1a5653;
-    color: #dbbd1b;
-    width: auto;
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #112d4e;
+    
 }
+
+header img {
+    min-width: 300px;
+    width: 450px;
+}
+
+
 footer {
-    background-color: #1a5653;
+background-color: #112d4e;
     text-align: center;
-    color: #dbbd1b;
+    color: white;
     padding: 20px;
-    width: auto;
 }
+
+.ftext {
+
+    background: linear-gradient(90deg, #ae5d06e2, #feed7b, #ae5d06e2, #feed7b, #ae5d06e2); /* Gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+  }
+
  section {
     margin: 0;
     padding: 0;
  }
+
 .container {
     display: flex;
     justify-content: center;
@@ -42,27 +54,24 @@ div {
     max-width: 500px;
     display: block;
     margin: 0 auto;
-}
-.note {
-    background-color: #1a5653;
-    padding:10px;
+
 }
 
 h1 {
-    color: #dbbd1b;
+  
     text-align: center;
+    color: black;
     font-size: 40px;
-    padding:4px;
 }
 
 h2 {
     padding: 10px 0;
-    color: #5cd85a;
+    color: black;
     font-size: 32px;
 }
 
 section p {
-    color: #dbbd1b;
+    color: black;
     font-size: 22px;
   
 }
@@ -85,14 +94,15 @@ section p {
       font-size: 14px;
     }
     .mail {
-    font-size: 16px;
-}
+        font-size: 14px;
+    }
   }
   
 .form {
 max-width: 500px; /* Set max width of the form */
 margin: 20px auto;   /* Center the form horizontally */
 padding: 18px;
+
 }
 
 .form label {
@@ -109,26 +119,26 @@ border: 0;
 width: 100%;
 padding: 10px;
 margin-bottom: 12px;
-color: white;
-border-bottom: 2px solid #;
-background-color: #5cd85a;
+color: black;
+border-bottom: 2px solid #ffffff;
+background-color: #ffffff;
 box-sizing: border-box; /* Includes padding in width calculation */
 }
 
 
 .form textarea {
+border-bottom: 2px solid black;
 min-height: 100px; /* Set a minimum height for the textarea */
-background-color: #5cd85a;
-}
-
-.form input:invalid,
-.form textarea:invalid {
-border-color: red;
 }
 
 .form input:valid,
 .form textarea:valid {
-border-color: green;
+border-color: black;
+}
+
+.form input:invalid,
+.form textarea:invalid {
+border-color: rgb(156, 156, 156);
 }
 
 
@@ -139,13 +149,15 @@ margin-bottom: 10px;
 .button {
 border: none;
 padding: 8px 12px;
-background-color: #107869;
-color: #5cd85a;
-border: 2px solid #5cd85a;
+background-color: #ffffff;
+color: black;
+border-bottom: 2px solid black;
 }
 
 .button:hover {
-    color: #dbbd1b;
     cursor: pointer;
-    border: 2px solid #dbbd1b;
+    border-bottom: 2px solid #ffffff;
+    background-color: black;
+    color: #ffffff;
+
 }
