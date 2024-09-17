@@ -11,24 +11,33 @@
     <meta name="description" content="Prestigious Solutions offers efficient and cost-effective procurement solutions for office supplies and equipment. We streamline the process for small to medium businesses, ensuring high-quality products at competitive prices with exceptional customer service.">
     <meta name="keywords" content="Prestigious Solutions, office supplies, office equipment, procurement solutions, small business procurement, medium business procurement, cost-effective office supplies, quality office equipment, procurement service, office procurement, business supplies, customer service">
     <meta name="author" content="Prestigious Solutions">
+    <!-- Favicon-->
+    <link rel="icon" href="browser.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://i.ibb.co/QFFxdZN/browser.png" type="image/x-icon">
+
+    <!--open graph-->
     <meta property="og:title" content="Prestigious Solutions - Efficient Procurement for Office Supplies & Equipment">
     <meta property="og:description" content="Prestigious Solutions offers efficient and cost-effective procurement solutions for office supplies and equipment. We streamline the process for small to medium businesses, ensuring high-quality products at competitive prices with exceptional customer service.">
-    <!--<meta property="og:image" content="URL_to_your_image">-->
+    <meta property="og:image" content="https://i.ibb.co/FHwF4rQ/logo1.png">
     <meta property="og:url" content="prestigioussolutions.co.za">
     <meta property="og:type" content="website">
-    <!--<meta name="twitter:card" content="summary_large_image">-->
+    
+    <!--"twitter:card-->
     <meta name="twitter:title" content="Prestigious Solutions - Efficient Procurement for Office Supplies & Equipment">
     <meta name="twitter:description" content="Prestigious Solutions offers efficient and cost-effective procurement solutions for office supplies and equipment. We streamline the process for small to medium businesses, ensuring high-quality products at competitive prices with exceptional customer service.">
-    <!--<meta name="twitter:image" content="URL_to_your_image">-->
+    <meta name="twitter:image" content="https://i.ibb.co/FHwF4rQ/logo1.png">
     <meta name="twitter:url" content="prestigioussolutions.co.za">
-</head>
-<header>
-    <h1>Prestigious Solutions.</h1>
-</header>
+
     
+
+</head>
+
 <body>
+    <header>
+        <img src="logo2.png" alt="prestigious Solutions logo">
+    </header>
     <section class="container">
-        <div class="note">
+        <div>
             <h2>Greetings,</h2>
             <p>Our website is currently under construction
                 and will be online soon. In the meantime, if you have any inquiries, please don't hesitate to get in
@@ -39,17 +48,18 @@
         </div>
         <div class="form">
             <h2>Contact Us</h2>
-            <form name="ps-contact" method="POST" data-netlify="true">
-                <input type="text" name="name" placeholder="Full Name" required />
-                <input type="text" name="name" placeholder="Company Name" required />
-                <input type="email" name="email" placeholder="Company Email" required />
-                <textarea name="message" placeholder="Your Message" required></textarea>
+            <form name="contact" method="POST" data-netlify="true" action="/thank-you">
+                <input type="text" name="name" placeholder="Contact Person" required />
+                <input type="text" name="name" placeholder="Business Name" required />
+                <input type="tel" name="name" placeholder="Business Phone Number" required />
+                <input type="email" name="email" placeholder="Business Email Address" required />
+                <textarea name="message" placeholder="Please briefly describe the services you are interested in." required></textarea>
                 <button class="button" type="submit">Send Message</button>
             </form>
         </div>
     </section>
+    <footer>
+        <p class="ftext">&copy; 2024 Prestigious Solutions. All rights reserved.</p>
+    </footer>
 </body>
-<footer>
-    <p>&copy; 2024 Prestigious Solutions. All rights reserved.</p>
-</footer>
 </html>
