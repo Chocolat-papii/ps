@@ -1,5 +1,6 @@
 body {
     background: #ffffff;
+    height: 100%;
   
 }
 
@@ -93,8 +94,13 @@ section p {
     .form .button {
       font-size: 14px;
     }
+    
     .mail {
         font-size: 14px;
+    }
+
+    footer p {
+        font-size: 11px;
     }
   }
   
