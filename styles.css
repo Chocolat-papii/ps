@@ -4,7 +4,7 @@ html, body {
   
 }
 
-body 
+body {
   font-family: 'Arial', sans-serif;
   display: flex;
   flex-direction: column;
@@ -169,14 +169,14 @@ margin-bottom: 10px;
 border: none;
 padding: 8px 12px;
 background-color: #ffffff;
-border-radius: 10px;
+border-radius: 18px;
 color: #112d4e;
 border: 2px solid #112d4e;
 }
 
 .button:hover {
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 18px;
     border: 2px solid #ffffff;
     background-color: #112d4e;
     color: #ffffff;
