@@ -163,14 +163,16 @@ margin-bottom: 10px;
 border: none;
 padding: 8px 12px;
 background-color: #ffffff;
-color: black;
+border-radius: 50%;
+color: #112d4e;
 border-bottom: 2px solid black;
 }
 
 .button:hover {
     cursor: pointer;
+    border-radius: 50%;
     border-bottom: 2px solid #ffffff;
-    background-color: black;
+    background-color: #112d4e;
     color: #ffffff;
 
 }
