@@ -70,14 +70,12 @@ h1 {
     text-align: center;
     color: black;
     font-size: 40px;
-    background-color:red;
 }
 
 h2 {
     padding: 10px 0;
     color: black;
     font-size: 32px;
-    background-color:red;
 }
 
 section p {
@@ -171,14 +169,14 @@ margin-bottom: 10px;
 border: none;
 padding: 8px 12px;
 background-color: #ffffff;
-border-radius: 25px;
+border-radius: 20px;
 color: #112d4e;
 border: 2px solid #112d4e;
 }
 
 .button:hover {
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 20px;
     border: 2px solid #ffffff;
     background-color: #112d4e;
     color: #ffffff;
