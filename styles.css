@@ -119,8 +119,11 @@ margin: 20px auto;   /* Center the form horizontally */
 padding: 18px;
 
 }
+
 input, textarea, button {
   font-family: inherit; 
+}
+
 .form label {
 display: block;
 margin-bottom: 5px;
@@ -166,15 +169,15 @@ margin-bottom: 10px;
 border: none;
 padding: 8px 12px;
 background-color: #ffffff;
-border-radius: 20px;
+border-radius: 10px;
 color: #112d4e;
 border: 2px solid #112d4e;
 }
 
 .button:hover {
     cursor: pointer;
-    border-radius: 20px;
-    border-bottom: 2px solid #ffffff;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
     background-color: #112d4e;
     color: #ffffff;
 
